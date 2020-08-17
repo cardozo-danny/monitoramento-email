@@ -33,7 +33,6 @@ def verificar_mudancas():
         mensagem = f'O preço foi alterado para {preco.text}'
         # Enviar o e-mail
         #cardozo.danny20@gmail.com
-        #mjc200217
         mail = Emailer(email_origem=os.environ.get('EMAIL_REMETENTE'),
                        senha_email=os.environ.get('SENHA_EMAIL'))
         lista_contatos = ['brito.danny@gmail.com']
